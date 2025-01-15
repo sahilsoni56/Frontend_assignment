@@ -1,15 +1,8 @@
-# Frontend_assignment
+# React + Vite
 
-#Frontend Development: 
-1. Create a responsive webpage with the following features: 
-a. A fixed navbar that does not move when scrolling. 
-b. Below the navbar, create three sections: a left menu, a main content area, 
-and a right-side panel. 
-c. Include a footer at the bottom. 
-d. Make the left menu collapsible. 
-#. For the same webpage,
-2. write a JavaScript function that does the following: 
-a. If the screen width is between 992px and 1600px, shrink the page by 90%. 
-b. If the screen width is between 700px and 767px, shrink the page by 80%. 
-c. If the screen width is between 600px and 700px, shrink the width to 75%. 
-d. If the screen width is less than or equal to 600px, shrink the width to 50%. 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
